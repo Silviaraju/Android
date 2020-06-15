@@ -1,0 +1,297 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundorange"
+
+    >
+
+    <LinearLayout
+         android:id="@+id/linearLayout1111111111"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/backgroundorange"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="REGISTER"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFF"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/LinearLayout01"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/linearLayout1111111111"
+
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:orientation="vertical"
+                android:padding="5dp" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <ImageView
+                        android:id="@+id/imageView1"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="3dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/usericon" />
+
+                    <EditText
+                        android:id="@+id/edtRegUserName"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/logregedtbckg"
+                        android:ems="10"
+                        android:hint="UserName"
+                        android:padding="5dp"
+                        android:textColor="#444" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <ImageView
+                        android:id="@+id/ImageView01"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="3dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/key" />
+
+                    <EditText
+                        android:id="@+id/edtRegPassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/logregedtbckg"
+                        android:ems="10"
+                        android:hint="Password"
+                        android:padding="5dp"
+                        android:inputType="textPassword"
+                        android:textColor="#444" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <ImageView
+                        android:id="@+id/ImageView02"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="3dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/key" />
+
+                    <EditText
+                        android:id="@+id/edtRegConfirmPassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/logregedtbckg"
+                        android:ems="10"
+                        android:hint="Confirm-Password"
+                        android:padding="5dp"
+                        android:inputType="textPassword"
+                        android:textColor="#444" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llUserType"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <ImageView
+                        android:id="@+id/ImageView03"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="3dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/category" />
+
+                    <EditText
+                        android:id="@+id/edtRegUserType"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/logregedtbckg"
+                        android:ems="10"
+                        android:hint="User-Type"
+                        android:padding="5dp"
+                        android:textColor="#444" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                     >
+
+                    <ImageView
+                        android:id="@+id/ImageView04"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="3dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/email" />
+
+                    <EditText
+                        android:id="@+id/edtRegEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/logregedtbckg"
+                        android:ems="10"
+                        android:hint="Email"
+                        android:inputType="textEmailAddress"
+                        android:padding="5dp"
+                        android:textColor="#444" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llAadhar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <ImageView
+
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="3dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/aadhar" />
+
+                    <EditText
+                        android:id="@+id/edtAadhar"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/logregedtbckg"
+                        android:ems="10"
+                        android:hint="Aadhar No."
+                        android:inputType="number"
+                        android:padding="5dp"
+                        android:textColor="#444" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/llAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <ImageView
+
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="3dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/address" />
+
+                    <EditText
+                        android:id="@+id/edtAddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/logregedtbckg"
+                        android:ems="10"
+                        android:hint="Address"
+                        android:inputType="textPostalAddress"
+                        android:padding="5dp"
+                        android:textColor="#444" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <ImageView
+                        android:id="@+id/ImageView05"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="3dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/phone" />
+
+                    <EditText
+                        android:id="@+id/edtRegPhone"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/logregedtbckg"
+                        android:ems="10"
+                        android:hint="Phone"
+                        android:inputType="number"
+                        android:padding="5dp"
+                        android:maxLength="10"
+                        android:textColor="#444" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btnRegRegister"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/redButton"
+                    android:text="REGISTER"
+                    android:textColor="#000"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txtRegStatus"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/backgroundorange"
+            android:gravity="center_vertical|center_horizontal"       
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFF"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>
